@@ -14,5 +14,10 @@ build-backend = "hatchling.build"
 [tool.hatch.build.targets.wheel]
 packages = ["my_application"]
 
+[dependency-groups]
+dev = [
+    "ruff>=0.11.6",
+]
+
 [project.scripts]
 my-app = "applications.scripts.main:main"
