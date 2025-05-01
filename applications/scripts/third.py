@@ -1,4 +1,4 @@
-from applications import my_lib, greet
+from applications.module import greet
 
-my_lib.greet()
+
 greet()
